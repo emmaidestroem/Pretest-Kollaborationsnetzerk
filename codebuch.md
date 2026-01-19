@@ -13,7 +13,10 @@ welches Chartjahr (definiert einen Zeitraum, in dem die Beziehung zwischen zwei 
 
 ### edge_role
 NUR BEI type=2 (sonst NA); definiert die Art des Akteurs
-
+1 = Künstler (hat den Song performt)
+2 = Writer (hat den Song geschrieben/ komponiert) 
+3 = Produzent (hat den Song produziert)
+4 = Label (hat den Song veröffentlicht)
 
 ## Nodelist (Node-Attribute)
 
@@ -28,10 +31,15 @@ Name oder Bezeichnung des Knotens, der dann im netzwerk auch angezeigt wird (als
 ### sex
 
 Geschlecht; bei Label und Songs NA
+1 = weiblich 
+2 = männlich 
+3 = divers
 
 ### type
 
 Unterscheidung zwischen Songs und Akteuren; Akteure sind Künstler, Writer, Produzenten, Label (alles außer Songs)
+1 = Song 
+2 = Akteur
 
 ### genre
 
